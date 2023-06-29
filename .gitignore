@@ -2,6 +2,7 @@
 .idea
 .cache
 .DS_Store
+.parcel-cache/
 
 # we do have reasons for that
 package-lock.json

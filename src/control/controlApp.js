@@ -1,5 +1,5 @@
 import { createApp } from 'stapp'
-import { persist, toAsync } from 'stapp/lib/modules/persist'
+import { persist, toAsync } from 'stapp-persist'
 import { stopWatch } from './modules/stopWatch/module'
 import { presentationState } from './modules/presentation/module'
 import { createConsumer } from '../helpers/preact/createConsumer'

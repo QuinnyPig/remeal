@@ -31,7 +31,9 @@ export class PresentationFrame extends Component {
     return host + pathname !== oldHost + oldPath
   }
 
-  setIframeRef = (element) => {
+  // the next line throws an unexpected token error; fix it.
+  
+  setIframeRef=(element) => {
     if (element) {
       element.onload = () => {
         this.iframe = element.contentWindow
@@ -41,7 +43,6 @@ export class PresentationFrame extends Component {
       this.iframe = null
     }
   }
-
   sendState(state) {
     this.iframe &&
       this.iframe.postMessage(

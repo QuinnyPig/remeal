@@ -1,5 +1,5 @@
 import { Slim } from 'slim-js'
-import { tag, template, useShadow } from 'slim-js/Decorators'
+import { tag, useShadow, template } from 'slim-js/dist/decorators.js'
 import { throttle } from '../helpers/throttle'
 import { calculateCircle } from '../helpers/calculateCircle'
 
